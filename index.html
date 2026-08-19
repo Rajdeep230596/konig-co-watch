@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>König &amp; Co. — Luxury Watch House</title>
+    <meta
+      name="description"
+      content="König & Co. is a curated house of luxury timepieces. Shop authentic watches for men and women, visit the atelier, and discover the collector’s selection."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect fill='%230b0b0b' width='64' height='64'/><text x='32' y='42' text-anchor='middle' font-size='28' fill='%23c4a35a' font-family='Georgia'>K</text></svg>" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="site-chrome" data-header>
+    <div class="topbar">
+      <div class="wrap topbar__inner">
+        <a href="#stores">Boutiques</a>
+        <a href="#reach">Contact Us</a>
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="wrap header__inner">
+        <button class="icon-btn menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+          <span class="sr-only">Menu</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <a class="wordmark" href="#top" aria-label="König &amp; Co. home">
+          <span class="wordmark__k">KÖNIG</span>
+          <span class="wordmark__amp">&amp;</span>
+          <span class="wordmark__co">CO.</span>
+        </a>
+
+        <nav class="primary-nav" id="site-nav" data-nav>
+          <a href="#atelier">Visit Atelier</a>
+          <a href="#watches">All Watches</a>
+          <a href="#men">Men</a>
+          <a href="#women">Women</a>
+          <a href="#smart">Chronograph</a>
+          <a href="#houses">Houses</a>
+          <a href="#stores">Boutiques</a>
+          <a href="#offers">Offers</a>
+        </nav>
+
+        <div class="header-tools">
+          <button class="icon-btn" type="button" data-search-open aria-label="Search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M20 20l-3.2-3.2" /></svg>
+          </button>
+          <a class="icon-btn" href="#account" aria-label="Account">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2" /><path d="M5 19c1.4-3.2 3.8-4.8 7-4.8s5.6 1.6 7 4.8" /></svg>
+          </a>
+          <a class="icon-btn" href="#wishlist" aria-label="Wish list">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-9.2A3.8 3.8 0 0 1 12 8a3.8 3.8 0 0 1 7 2.8C19 15.6 12 20 12 20z" /></svg>
+          </a>
+          <a class="icon-btn cart-btn" href="#cart" aria-label="Bag, 0 items">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8z" /><path d="M9 8V7a3 3 0 0 1 6 0v1" /></svg>
+            <span class="cart-count">0</span>
+          </a>
+        </div>
+      </div>
+    </header>
+    </div>
+
+    <div class="search-panel" data-search-panel hidden>
+      <form class="search-panel__form" role="search">
+        <input type="search" placeholder="Search watches, houses, collections" aria-label="Search the house" />
+        <button type="submit">Search</button>
+        <button type="button" class="text-btn" data-search-close>Close</button>
+      </form>
+    </div>
+
+    <main id="main">
+      <section class="story" id="top" data-story aria-label="König &amp; Co. film">
+        <div class="story__stage">
+          <video
+            id="story-video"
+            class="story__video"
+            muted
+            playsinline
+            preload="auto"
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <source src="assets/video/konig-co.mp4" type="video/mp4" />
+          </video>
+          <div class="story__veil" data-veil></div>
+
+          <div class="story__chapters">
+            <article class="chapter is-active" data-chapter="0">
+              <p class="eyebrow">The House of Time</p>
+              <h1>KÖNIG &amp; CO.</h1>
+              <p class="chapter__lead">
+                A curated destination for authentic luxury timepieces — crafted for those who collect moments, not merely minutes.
+              </p>
+              <div class="chapter__actions">
+                <a class="btn btn--gold" href="#watches">Shop the Collection</a>
+                <a class="btn btn--ghost" href="#atelier">Visit the Atelier</a>
+              </div>
+              <p class="scroll-cue">Scroll to enter the film</p>
+            </article>
+
+            <article class="chapter" data-chapter="1">
+              <p class="eyebrow">After the first light</p>
+              <h2>The Craft, Held Still</h2>
+              <p class="chapter__lead">
+                Swiss-trained finishing. German discipline. Every case, dial, and movement is chosen with the patience of a house that refuses haste.
+              </p>
+              <a class="btn btn--ghost" href="#promise">Our Promise</a>
+            </article>
+
+            <article class="chapter" data-chapter="2">
+              <p class="eyebrow">The collector’s hour</p>
+              <h2>Worn, Not Displayed</h2>
+              <p class="chapter__lead">
+                From atelier complications to everyday icons — timepieces selected to live on the wrist, across  generations of wear.
+              </p>
+              <a class="btn btn--gold" href="#collectors">The Collector’s Selection</a>
+            </article>
+          </div>
+
+          <div class="story__progress" aria-hidden="true">
+            <span data-progress-bar></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust" aria-label="House assurances">
+        <div class="wrap trust__grid">
+          <article>
+            <span>01</span>
+            <h3>Independent House</h3>
+            <p>A private maison of watches, not a catalogue of everything.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Lifetime Care</h3>
+            <p>Complimentary battery service on quartz pieces we sell.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>König Circle</h3>
+            <p>Earn atelier points on every authenticated purchase.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Track Your Order</h3>
+            <p>From the vault to your wrist, followed in real time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="looks" id="atelier">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">Visit Atelier</p>
+            <h2>Shop the Signature Look</h2>
+            <p>Editorial edits from the house — watches styled the way they are meant to be worn.</p>
+          </header>
+          <div class="looks__grid">
+            <a class="look-card look-card--wide" href="#women">
+              <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=1400&q=80" alt="Gold dress watch on black marble" />
+              <div class="look-card__copy">
+                <span>Women</span>
+                <strong>Glimmer Evening</strong>
+              </div>
+            </a>
+            <a class="look-card" href="#men">
+              <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=900&q=80" alt="Classic men’s dress watch" />
+              <div class="look-card__copy">
+                <span>Men</span>
+                <strong>Boardroom Steel</strong>
+              </div>
+            </a>
+            <a class="look-card" href="#smart">
+              <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=900&q=80" alt="Sport chronograph watch" />
+              <div class="look-card__copy">
+                <span>Chronograph</span>
+                <strong>Field &amp; Night</strong>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="signature" id="watches">
+        <span id="men" class="sr-only">Men</span>
+        <span id="women" class="sr-only">Women</span>
+        <span id="smart" class="sr-only">Chronograph</span>
+        <div class="wrap">
+          <header class="section-head section-head--row">
+            <div>
+              <p class="eyebrow">Signature Timepieces</p>
+              <h2>All Watches</h2>
+            </div>
+            <div class="tabs" role="tablist" aria-label="Watch categories">
+              <button class="is-active" type="button" role="tab" aria-selected="true" data-filter="all">All</button>
+              <button type="button" role="tab" aria-selected="false" data-filter="men">Men</button>
+              <button type="button" role="tab" aria-selected="false" data-filter="women">Women</button>
+              <button type="button" role="tab" aria-selected="false" data-filter="chrono">Chronograph</button>
+            </div>
+          </header>
+          <div class="product-grid" data-product-grid>
+            <article class="product" data-cat="men">
+              <a href="#collectors">
+                <img src="https://images.unsplash.com/photo-1524592094714-0f2335d9e6d3?auto=format&fit=crop&w=800&q=80" alt="Seiko 5 Sports green dial" />
+                <p class="product__house">Seiko</p>
+                <h3>Men 5 Sports Round Green</h3>
+                <p class="product__price">₹ 34,500</p>
+              </a>
+            </article>
+            <article class="product" data-cat="men">
+              <a href="#collectors">
+                <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=800&q=80" alt="Tissot T-Classic blue dial" />
+                <p class="product__house">Tissot</p>
+                <h3>Men T-Classic Round Blue</h3>
+                <p class="product__price">₹ 48,900</p>
+              </a>
+            </article>
+            <article class="product" data-cat="women">
+              <a href="#collectors">
+                <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=800&q=80" alt="Silver oval ladies watch" />
+                <p class="product__house">Just Cavalli</p>
+                <h3>Women Vetra Oval Silver</h3>
+                <p class="product__price">₹ 22,400</p>
+              </a>
+            </article>
+            <article class="product" data-cat="chrono">
+              <a href="#collectors">
+                <img src="https://images.unsplash.com/photo-1622434641406-a158123450f9?auto=format&fit=crop&w=800&q=80" alt="Black chronograph watch" />
+                <p class="product__house">Armani Exchange</p>
+                <h3>Men Cayde Round Black</h3>
+                <p class="product__price">₹ 18,990</p>
+              </a>
+            </article>
+          </div>
+          <p class="center-link"><a href="#collectors">View all watches</a></p>
+        </div>
+      </section>
+
+      <section class="houses" id="houses">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">Icons of Time</p>
+            <h2>The Houses We Keep</h2>
+          </header>
+          <div class="houses__grid">
+            <span>Aigner</span><span>Armani Exchange</span><span>Boss</span><span>Casio</span>
+            <span>Citizen</span><span>Emporio Armani</span><span>Fossil</span><span>Frederique Constant</span>
+            <span>G-Shock</span><span>Michael Kors</span><span>Movado</span><span>Rado</span>
+            <span>Seiko</span><span>Tissot</span><span>Titan</span><span>Versace</span>
+          </div>
+          <p class="center-link"><a href="#collectors">View all houses</a></p>
+        </div>
+      </section>
+
+      <section class="boutique" id="stores">
+        <div class="boutique__media">
+          <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=80" alt="König &amp; Co. boutique interior" />
+        </div>
+        <div class="boutique__copy">
+          <p class="eyebrow">The House of Time</p>
+          <h2>Discover a curated selection from your nearest König boutique</h2>
+          <p>Private viewing rooms. Certified authenticity. Watchmakers on the floor.</p>
+          <a class="btn btn--dark" href="#reach">Locate nearest boutique</a>
+        </div>
+      </section>
+
+      <section class="collectors" id="collectors">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">The Collector’s Selection</p>
+            <h2>Moments that define craft, culture, and form</h2>
+          </header>
+          <div class="product-grid product-grid--six">
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=80" alt="Classic leather strap watch" />
+              <p class="product__house">Seiko</p>
+              <h3>Men Coutura Round Brown</h3>
+              <p class="product__price">₹ 41,200</p>
+            </article>
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1533139502658-0198f920d8e8?auto=format&fit=crop&w=700&q=80" alt="Blue dress watch" />
+              <p class="product__house">Tissot</p>
+              <h3>Men T-Classic Tonneau Green</h3>
+              <p class="product__price">₹ 52,800</p>
+            </article>
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=700&q=80" alt="Ladies silver watch" />
+              <p class="product__house">Rado</p>
+              <h3>Women Centrix Round White</h3>
+              <p class="product__price">₹ 89,000</p>
+            </article>
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=700&q=80" alt="Gold luxury watch" />
+              <p class="product__house">Michael Kors</p>
+              <h3>Men Maritime Round Black</h3>
+              <p class="product__price">₹ 24,750</p>
+            </article>
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=700&q=80" alt="Skeleton watch close-up" />
+              <p class="product__house">Charriol</p>
+              <h3>Women St Tropez Round White</h3>
+              <p class="product__price">₹ 67,400</p>
+            </article>
+            <article class="product">
+              <img src="https://images.unsplash.com/photo-1547996160-81dfa63595aa?auto=format&fit=crop&w=700&q=80" alt="Steel bracelet watch" />
+              <p class="product__house">Cerruti</p>
+              <h3>Men FW23 Round White</h3>
+              <p class="product__price">₹ 29,990</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="promise" id="promise">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">Our Promise</p>
+            <h2>A trusted destination for premium watches</h2>
+          </header>
+          <div class="promise__grid">
+            <article>
+              <h3>100% Authentic</h3>
+              <p>Every timepiece arrives with house certification and a manufacturer warranty.</p>
+            </article>
+            <article>
+              <h3>After-Sale Support</h3>
+              <p>Regulation, straps, and servicing handled by König watchmakers.</p>
+            </article>
+            <article>
+              <h3>The König Seal</h3>
+              <p>Bought from the house, kept by the house — for as long as you wear it.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="journal" id="journal">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">The Language of Time</p>
+            <h2>Insights on craft, mastery, and the exceptional</h2>
+          </header>
+          <div class="journal__grid">
+            <article class="journal-card journal-card--feature">
+              <img src="https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?auto=format&fit=crop&w=1200&q=80" alt="Automatic watch movement" />
+              <div>
+                <time datetime="2026-04-30">30 Apr 2026</time>
+                <h3>The mastery of endurance reserve</h3>
+                <p>A guide to premium automatic watches — and why power reserve is the quiet luxury.</p>
+              </div>
+            </article>
+            <article class="journal-card">
+              <time datetime="2026-05-15">15 May 2026</time>
+              <h3>Dial drama done right</h3>
+              <p>Avant-garde faces that still read as wearable architecture.</p>
+            </article>
+            <article class="journal-card">
+              <time datetime="2026-05-05">05 May 2026</time>
+              <h3>Icons every collector should know</h3>
+              <p>Sport-luxe pieces that outlast the season they were born in.</p>
+            </article>
+          </div>
+          <p class="center-link"><a href="#journal">View all chronicles</a></p>
+        </div>
+      </section>
+
+      <section class="gallery" aria-label="The Timepiece Gallery">
+        <div class="wrap">
+          <header class="section-head">
+            <p class="eyebrow">The Timepiece Gallery</p>
+            <h2>Where detail, craftsmanship, and character come alive</h2>
+          </header>
+        </div>
+        <div class="gallery__strip">
+          <img src="https://images.unsplash.com/photo-1524592094714-0f2335d9e6d3?auto=format&fit=crop&w=700&q=80" alt="Green sports watch" />
+          <img src="https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=700&q=80" alt="Silver ladies watch" />
+          <img src="https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?auto=format&fit=crop&w=700&q=80" alt="Gold dress watch" />
+          <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=700&q=80" alt="Leather strap watch" />
+          <img src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56?auto=format&fit=crop&w=700&q=80" alt="Chronograph on wrist" />
+        </div>
+      </section>
+
+      <section class="offers" id="offers">
+        <div class="wrap offers__inner">
+          <p class="eyebrow">Atelier Offers</p>
+          <h2>Private hours, public invitations</h2>
+          <p>Seasonal reductions, boutique-only allocations, and first look at new arrivals for König Circle members.</p>
+          <a class="btn btn--gold" href="#account">Join the Circle</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="reach">
+      <div class="wrap footer__grid">
+        <div>
+          <p class="wordmark wordmark--footer">
+            <span class="wordmark__k">KÖNIG</span>
+            <span class="wordmark__amp">&amp;</span>
+            <span class="wordmark__co">CO.</span>
+          </p>
+          <p class="footer__tag">The house of time. Est. in the atelier tradition.</p>
+          <form class="newsletter" id="account" data-newsletter>
+            <label for="news-email">Sign up for our newsletter</label>
+            <div>
+              <input id="news-email" type="email" required placeholder="Email address" />
+              <button type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          <h3>Know König</h3>
+          <ul>
+            <li><a href="#atelier">About the House</a></li>
+            <li><a href="#promise">Our Promise</a></li>
+            <li><a href="#journal">Chronicles</a></li>
+            <li><a href="#stores">Boutiques</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Terms</h3>
+          <ul>
+            <li><a href="#promise">Privacy</a></li>
+            <li><a href="#promise">T&amp;C and FAQs</a></li>
+            <li><a href="#reach">Orders &amp; Returns</a></li>
+            <li><a href="#watches">Sitemap</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Grievances<br /><a href="mailto:atelier@konigandco.com">atelier@konigandco.com</a><br />1800 266 0140</p>
+          <p>Sales &amp; service<br /><a href="mailto:care@konigandco.com">care@konigandco.com</a><br />09:00–17:30 · Mon–Fri</p>
+        </div>
+      </div>
+      <div class="wrap footer__cities">
+        Mumbai · Bengaluru · Delhi · Hyderabad · Chennai · Pune · Kolkata · Ahmedabad · Jaipur · Chandigarh
+      </div>
+      <div class="wrap footer__bottom">
+        <p>© <span data-year></span> König &amp; Co. All rights reserved.</p>
+        <p>Inspired in structure by the modern luxury watch boutique.</p>
+      </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
